@@ -8,6 +8,7 @@ require (
 )
 
 require (
+	github.com/aws/aws-sdk-go v1.44.167 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.4.10 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.13.7 // indirect
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.12.21 // indirect
@@ -20,6 +21,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.11.28 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.13.11 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.17.7 // indirect
+	github.com/jmespath/go-jmespath v0.4.0 // indirect
 )
 
 require (
