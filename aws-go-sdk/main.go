@@ -11,7 +11,7 @@ import (
 
 func main() {
 
-	msg := aws.String("test message")
+	msg := aws.String("This is test message")
 	topicARN := aws.String("arn:aws:sns:us-west-2:000000000000:trial-proj1-sns")
 
 	// Initialize a session
