@@ -1,5 +1,7 @@
 # AWS SNS and SQS using localstack with golang
 
+
+
 Command to run localstack on Docker
 
 ```cli
@@ -89,6 +91,8 @@ go run main.go -m 'MY FIRST MESSAGE' -t 'arn:aws:sns:us-west-2:000000000000:tria
 
 ## Useful links
 
-*https://towardsaws.com/sns-and-sqs-with-localstack-using-golang-16b291f45e0b*
+- [Important link for connectivity](https://docs.localstack.cloud/user-guide/integrations/sdks/go/)
 
-*https://learnbatta.com/blog/aws-localstack-with-docker-compose/*
+- [towardsaws.com](https://towardsaws.com/sns-and-sqs-with-localstack-using-golang-16b291f45e0b)
+
+- [learnbatta.com](https://learnbatta.com/blog/aws-localstack-with-docker-compose/)
