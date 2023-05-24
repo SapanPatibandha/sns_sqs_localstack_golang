@@ -8,6 +8,10 @@ Command to run localstack on Docker
 docker run --rm -it -p 4566:4566 -p 4510-4559:4510-4559 localstack/localstack
 ```
 
+```cli
+docker run --rm -d -p 4566:4566 -p 4510-4559:4510-4559 localstack/localstack
+```
+
 Command for Docker-compose to run localstack
 
 ```docker
